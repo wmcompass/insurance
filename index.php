@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-  <form action="welcome.php" method="post">
-Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-<input type="submit">
-</form>
   
+<body>
   
- <form action="enter customer profile" method ="post">
+ <form action="save_data.php" method ="post">
  姓氏: <input type="text" name="lastname">
  名字: <input type="text" name="firstname">
-   生日:<br>
-  <input type="text" name="birthdate">  
-</form>
+ 生日:<input type="date" name="birthdate">  
+ 性別:<br>
+ <input type ="radio" name="gender" value="male”>Male<br>
+ <input type ="radio" name="gender" value=female"Female<br>
+ 身分證字號: <input type ="text" name="personal_ID">
+   
+   
+   
+ <input type="submit">
+ </form>
+
+  
+  
+</body>
+</html>
