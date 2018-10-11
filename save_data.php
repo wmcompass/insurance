@@ -3,16 +3,10 @@
 <?php
 $firstname = $_POST["firstname"];
 $lastname = $_POST["lastname"];
-$birth_date = $_POST[""]
+$birth_date = $_POST["birthdate"];
 $personal_ID = $_POST["personal_ID"];
-
-
-
-
+$gender = $_POST["gender"];
 ?>
-
-Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
 
 
 
